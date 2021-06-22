@@ -71,6 +71,8 @@ function TarayiciDili()
     $denetledil = $_SERVER['HTTP_ACCEPT_LANGUAGE'];
     if (stristr($denetledil, "tr-TR")) {
         $tarayicidili = "Türkçe";
+    } elseif (stristr($denetledil, "tr")) {
+        $tarayicidili = "Türkçe";
     } elseif (stristr($denetledil, "en")) {
         $tarayicidili = "İngilizce";
     } elseif (stristr($denetledil, "en-EN")) {
