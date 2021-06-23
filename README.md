@@ -28,7 +28,7 @@ PHP Logging software or processes
 
 <b><p>The javascript file is published as an attachment. You can use optional. Update and development will come.
 </p></b>
-<li>Screen Resolution</li>
+<li>Screen Resolution -> additional/main.js</li>
 </ul>
 
 <h2>How does it work?</h2>
