@@ -19,9 +19,9 @@ PHP Logging software or processes
 <li>Request Type</li>
 <li>Browser Language</li>
 <li>Browser Type</li>
-<li>*Browser Type-2*For advanced browsers otherwise it returns null
+<li>*Browser Type-2*	For advanced browsers otherwise it returns null
 </li>
-<li>*Browser Version*For advanced browsers otherwise it returns null
+<li>*Browser Version*	For advanced browsers otherwise it returns null
 </li>
 <li>OS</li>
 <li>File Path</li><br>
