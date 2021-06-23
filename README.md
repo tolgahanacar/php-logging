@@ -24,7 +24,7 @@ PHP Logging software or processes
 <li>*Browser Version*	For advanced browsers otherwise it returns null
 </li>
 <li>OS</li>
-<li>File Path</li><br>
+<li>File Path</li>
 
 <b><p>The javascript file is published as an attachment. You can use optional. Update and development will come.
 </p></b>
