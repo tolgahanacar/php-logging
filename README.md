@@ -5,7 +5,7 @@ PHP Logging software or processes
 <small>It is recommended that you inform the users who enter your website about the data you receive in terms of awareness.
 </small><br>
 <small>Those who write, publish or contribute this code assume no responsibility. All responsibility belongs to the users who integrate or use this code on the website.
-</small>
+</small><br>
 
 <ul>
 <li>Date</li>
