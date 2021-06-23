@@ -3,7 +3,7 @@ PHP Logging software or processes
 
 <h2>If this software integrates it into your website, it receives the following data from users!</h2>
 <small>It is recommended that you inform the users who enter your website about the data you receive in terms of awareness.
-</small>
+</small><br>
 <small>Those who write, publish or contribute this code assume no responsibility. All responsibility belongs to the users who integrate or use this code on the website.
 </small>
 
