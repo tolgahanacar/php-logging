@@ -34,4 +34,6 @@ PHP Logging software or processes
 </li>
 <li>It automatically records the data it receives every time a website or page is logged.
 </li>
+<li>It does not log the screen resolution as a log. The main.js file contains the screen resolution. it just writes to console.log.
+</li>
 </ul>
