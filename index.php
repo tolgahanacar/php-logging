@@ -15,6 +15,7 @@ require_once 'logcontrol.php';
     <meta name="keywords" content="php logging, php, php free software">
     <meta name="author" content="Tolgahan ACAR">
     <title>PHP Logging - Tolgahan ACAR</title>
+	<script src="main.js" type="text/javascript"></script>
 </head>
 <body>
     
