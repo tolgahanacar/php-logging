@@ -30,6 +30,8 @@ PHP Logging software or processes
 <ul>
 <li>If the logs folder does not exist, it creates a new logs folder.
 </li>
-<li>It automatically takes the date you found and creates a text file that writes date-logs.
+<li>It automatically takes the date you were found under the logs folder and creates a text file that writes date-logs.
+</li>
+<li>It automatically records the data it receives every time a website or page is logged.
 </li>
 </ul>
