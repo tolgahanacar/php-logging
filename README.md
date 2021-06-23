@@ -13,11 +13,16 @@ PHP Logging software or processes
 <li>IP Adress</li>
 <li>Remote Host</li>
 <li>Server Protocol</li>
+<li>PORT</li>
 <li>Compression Request</li>
 <li>Character Set</li>
 <li>Request Type</li>
 <li>Browser Language</li>
 <li>Browser Type</li>
+<li>*Browser Type-2*For advanced browsers otherwise it returns null
+</li>
+<li>*Browser Version*For advanced browsers otherwise it returns null
+</li>
 <li>OS</li>
 <li>File Path</li><br>
 

@@ -13,14 +13,16 @@ if (file_exists("logs/" . $Tarih . "-logs" . ".txt")) {
             "IP Adresi:" . " " . $ipadresi . ", " .
             "Uzak Host:" . " " . $uzakhost . ", " .
             "Sunucu Protokolü:" . " " . $sunucuprotokolu . ", " .
+            "PORT:" . " " . $sunucuportu . ", " .
             "Sıkıştırma İsteği:" . " " . $sikistirmaistegi . ", " .
             "Karakter Seti:" . " " . $karakterseti . ", " .
             "İstek Türü:" . " " . $istekturu . ", " .
             "Tarayıcı Dili:" . " " . $tarayicidili . ", " .
             "Tarayıcı Türü:" . " " . $tarayicituru . ", " .
+            "Tarayıcı Türü-2:" . " " . $tarayicituru2 . ", " .
+            "Tarayıcı Versiyon:" . " " . $tarayiciversiyon . ", " .
             "İşletim Sistemi:" . " " . $isletimsistemi . ", " .
             "Dosya Yolu:" . " " . $dosyayolu . "\n"
-
 
     );
     fclose($dosya);

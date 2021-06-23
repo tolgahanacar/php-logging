@@ -34,6 +34,40 @@ function TarayiciTuru()
     return $tarayici;
 }
 
+@$tarayicituru2k = $_SERVER['HTTP_SEC_CH_UA'];
+if ($tarayicituru2k == true) {
+    function TarayiciTuru2()
+    {
+        $kontrol = $_SERVER['HTTP_SEC_CH_UA'];
+        if (stristr($kontrol, "Google Chrome")) {
+            $sonuc = "Google Chrome";
+        } elseif (stristr($kontrol, "Mozilla Firefox")) {
+            $sonuc = "Mozilla Firefox";
+        } elseif (stristr($kontrol, "Microsoft Edge")) {
+            $sonuc = "Microsoft Edge";
+        } elseif (stristr($kontrol, "Internet Explorer")) {
+            $sonuc = "Internet Explorer";
+        } elseif (stristr($kontrol, "Safari")) {
+            $sonuc = "Safari";
+        } else {
+            $sonuc = "Desteklenmeyen veya Bilinmeyen Tarayıcı!";
+        }
+        return $sonuc;
+    }
+} else {
+    function TarayiciTuru2()
+    {
+        $sonuc = "Desteklenmeyen veya Bilinmeyen Tarayıcı!";
+        return $sonuc;
+    }
+}
+
+if ($tarayicituru2k == true) {
+    $tarayiciversiyon = substr($_SERVER['HTTP_SEC_CH_UA'], 42, 2);
+} else {
+    $tarayiciversiyon = null;
+}
+
 
 function IsletimSistemi()
 {
@@ -100,6 +134,7 @@ $dosyayolu          =     $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
 $ipadresi           =     $_SERVER['REMOTE_ADDR'];
 $uzakhost           =     gethostbyaddr($_SERVER['REMOTE_ADDR']);
 $sunucuprotokolu    =     $_SERVER['SERVER_PROTOCOL'];
+$sunucuportu        =     $_SERVER['SERVER_PORT'];
 @$karakterseti      =     $_SERVER['HTTP_ACCEPT_CHARSET'];
 $istekturu          =     $_SERVER['REQUEST_METHOD'];
 $tarayicidili       =     TarayiciDili();
@@ -109,5 +144,7 @@ $isletimsistemi     =     IsletimSistemi();
 $uzakport           =     $_SERVER['REMOTE_PORT'];
 $sikistirmaistegi   =     $_SERVER['HTTP_ACCEPT_ENCODING'];
 $tarayicituru       =     TarayiciTuru();
+$tarayicituru2      =     TarayiciTuru2();
 $Tarih              =     date('d.m.Y');
 $Saat               =     date('H:i:s');
+$tarayiciversiyon;
