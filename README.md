@@ -25,3 +25,11 @@ PHP Logging software or processes
 </p></b>
 <li>Screen Resolution</li>
 </ul>
+
+<h2>How does it work?</h2>
+<ul>
+<li>If the logs folder does not exist, it creates a new logs folder.
+</li>
+<li>It automatically takes the date you found and creates a text file that writes date-logs.
+</li>
+</ul>
