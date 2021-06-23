@@ -19,8 +19,9 @@ PHP Logging software or processes
 <li>Browser Language</li>
 <li>Browser Type</li>
 <li>OS</li>
-<li>File Path</li>
-<p>The javascript file is published as an attachment. You can use optional. Update and development will come.
-</p>
+<li>File Path</li><br>
+
+<b><p>The javascript file is published as an attachment. You can use optional. Update and development will come.
+</p></b>
 <li>Screen Resolution</li>
 </ul>
